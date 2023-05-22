@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 #loading the saved models
-dth_model = pickle.load(open('H:/DTH Curn Prediction/dth_model.sav' , 'rb'))
+dth_model = pickle.load(open('dth_model.sav' , 'rb'))
 
 
 # page title
